@@ -1,0 +1,2 @@
+class OverflowException(Exception):
+    pass
