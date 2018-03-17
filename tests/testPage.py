@@ -1,10 +1,10 @@
 import unittest
 import mock
 
-from page import Page
+from whereafax.page import Page
 
 
-class TestPage(unittest.testcase):
+class TestPage(unittest.TestCase):
 
     def setUp(self):
         self.dut = Page()
